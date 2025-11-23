@@ -1,18 +1,51 @@
-# React + Vite
+# 📝 React Blog Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and fully functional **blogging platform** built with **React** and **Appwrite**.  
+Users can **sign up, log in, create blogs, read posts**, and explore a smooth blogging experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🔐 **User Authentication**
+  - Sign up with email & password
+  - Login/logout functionality
+  - Get current logged-in user
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- 📝 **Blog Management**
+  - Create new blog posts
+  - Read and browse all posts
+  - View individual post details
 
-Note: This will impact Vite dev & build performances.
+- ⚛️ **Frontend**
+  - Built using modern React
+  - Clean component structure
 
-## Expanding the ESLint configuration
+- 🗄️ **Backend (Appwrite)**
+  - Appwrite Auth
+  - Appwrite Database
+  - Appwrite Storage (for images)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+| Tech | Purpose |
+|------|---------|
+| **React** | Frontend UI |
+| **Appwrite** | Authentication, database |
+| **React Router** | Navigation |
+| **Redux Toolkit** | State management |
+
+
+---
+
+## 🤝 Contributing
+
+Feel free to open issues or submit pull requests.
+
+## 🧑‍💻 Author
+
+**Waqar Ahmad**  
+Frontend Developer | React Enthusiast  
+GitHub: [https://github.com/Waqar-Ahmad76](https://github.com/Waqar-Ahmad76)
