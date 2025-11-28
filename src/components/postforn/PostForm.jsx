@@ -55,7 +55,7 @@ function PostForm({ post }) {
   };
 
   const slugTransform = useCallback((value) => {
-    if (value && typeof value === "string ")
+    if (value && typeof value === "string")
       return value
         .trim()
         .toLowerCase()
@@ -115,7 +115,7 @@ function PostForm({ post }) {
         {post && (
           <div className="w-full mb-4">
             <img
-              src={appwriteService.getFilePreview(post.featuredImage)}
+              src={appWriteService.getFilePreview(post.featuredImage)}
               alt={post.title}
               className="rounded-lg"
             />
